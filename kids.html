@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kids Education</title>
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <div class="logo">
+        <div class="school">
+            <img src="./logo.png" alt="School Logo">
+            <span>SCHOOL</span>
+        </div>
+        <div class="display-flex ">
+            <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Facilities</a>
+            <a href="#">Admission</a>
+            <button class="contact-btn">Contact</button>
+          </nav>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h1>
+          <span class="highlight">Empowering</span> <br>students from small<br> age <span class="highlighttwo">towards vision</span>
+        </h1>
+        <p>
+          With courage, confidence, creativity, and compassion to make<br> their unique contribution in a diverse and dynamic world.
+        </p>
+        <button class="enroll-btn">Enroll Now</button>
+      </div>
+      <!-- <div class="hero-image">
+        <img src="./hero-kids.png" alt="Superhero Kid">
+      </div> -->
+    </div>
+  </section>
+
+  <section class="curriculum">
+    <h2>Standard Curriculum</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="./kinder.png" alt="Kinder">
+        <h3>Kinder (3-6 Years)</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere dignissimos dolore sint excepturi ratione inventore iusto ab</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="card">
+        <img src="./elementary.png" alt="Elementary">
+        <h3>Elementary School</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa culpa voluptatem commodi odio aliquam quisquam nam, tenetur enim </p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="card">
+        <img src="./middle.png" alt="Middle">
+        <h3>Middle (10-16 Years)</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cum sapiente dicta qui repellat iure suscipit nisi magnam ipsum nihil?</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <style>/* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: right;
+      padding: 10px 0;
+    }
+    .display-flex{
+        display: flex;
+    }
+    .school{
+        display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .logo img {
+      width: 40px;
+      margin-right: 10px;
+    }
+    
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    
+    .contact-btn {
+      background-color: orange;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-left: 300px;
+      
+    }
+    
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 0;
+    }
+    
+    .hero-text {
+      flex: 1;
+      font-weight: bold;
+      
+    }
+    
+    .hero-text h1 {
+      font-size: 2.5rem;
+    }
+    
+    .hero-text .highlight {
+      color: orange;
+      
+    }
+    .highlighttwo{
+        color: #007bff;
+    }
+    
+    .enroll-btn {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    
+    /* Curriculum Section */
+    .curriculum {
+      text-align: center;
+      padding: 50px 0;
+    }
+    
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    
+    .card {
+      background: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      width: 30%;
+      text-align: center;
+    }
+    .card p{
+      margin-top: 10px;
+    }
+    .card a{
+      margin-top: 10px;
+    }
+    
+    .card img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+</style>
+</body>
+</html>
